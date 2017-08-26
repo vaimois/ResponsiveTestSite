@@ -1,0 +1,287 @@
+  
+* {
+    box-sizing: border-box;
+}
+
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-family: Ubuntu;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+        height: 40px;
+        background-color: white;
+
+    }
+    .fixed-footer{
+        bottom: 0;
+        text-align: center;
+        height: 40px;
+    }    
+
+    .center-text {
+
+        color: grey;
+        text-align: justify;
+
+    }
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 20px; /* Create scrollbar to test positioning */
+    }
+
+    #arrow {
+
+        color: lightgrey;
+    }
+    .h2-text {
+
+        color: teal;
+        font-family: ubuntu;
+        widows: 100%;
+         -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+        -ms-hyphens: auto;
+         -o-hyphens: auto;
+         hyphens: auto;
+ 
+    }
+
+    .h1-text {
+        color: teal;
+        font-weight: bold;
+        position: relative;
+        left : 10% ;    
+    }
+
+    .h3-text1 {
+        padding-top: 0cm;  
+        left: 10px;
+        vertical-align: middle;
+        position: relative;
+     }
+
+        .h3-text2 {
+        padding-top: 0cm;  
+        left: 10px;
+        vertical-align: middle;
+        position: relative;
+     }
+
+        .h3-text3 {
+        padding-top: 0cm;  
+        left: 10px;
+        vertical-align: middle;
+        position: relative;
+     }
+
+
+    .title-bar {
+        width: 200px;
+        height: 160px;
+        margin: 0 auto;
+        color: teal;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        position: absolute;
+        margin: -100px 0 0 -200px;
+        top: 0%;
+        left: 20%;
+    }
+
+
+    .left-container {
+        width: 700px;
+        height: 495px;
+        margin: 10 auto;
+        background-color: white;
+        float: left;
+        border-style: solid;
+        border-color: black;
+         margin: -100px 0 0 -200px;
+     }
+
+    .left-container2 {
+        width: 700px;
+        height: 475px;
+        margin: 0 auto;
+        background-color: white;
+        float: left;
+        border-style: solid;
+        border-color: black;
+        margin: -100px 0 0 -200px;
+      }
+
+.top-right-container {
+    
+    position: relative;
+    right : 12%;
+
+    }
+
+a.top-right-container {
+    
+    position: relative;
+    right : 21%;
+    color: black;
+    
+    }
+
+.text-box {
+
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 16px
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 100%;
+
+}
+
+.email-box {
+
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 100%;
+
+}
+
+.comment-box {
+
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 100%;
+
+}
+
+a{
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-container {
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+     margin: -100px 0 0 -200px;
+     border-style: solid;
+    border-color: black;
+    }
+
+.body-text {
+
+    background-image: url(images/concrete_seamless.png);
+}
+
+.style1 {
+  height: 30px; 
+  border-style: solid; 
+  border-color: lightgrey; 
+  border-width: 1.5px 0 0 0; 
+  width: 95%;
+} 
+
+
+#nav-bar li {
+    list-style: none;
+    text-decoration-color: red;
+    overflow: hidden;
+    display: block;
+}
+
+
+.list1 {
+
+    right: 40px;
+
+}
+@media only screen and (min-width: 480px) {
+    /* For mobile: */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+
+.navbar-inverse {
+
+    min-height: 180px;
+
+}
+
+.col-xs-6 {
+
+    background-color: white;
+}
+
+.navbar {
+
+     width: 100%;
+     position: absolute;
+     top: 0;
+
+}
+
